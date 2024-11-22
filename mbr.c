@@ -21,6 +21,7 @@ const char* partition_type_to_string(uint8_t type) {
     }
 }
 
+// ---------------------test
 // 2. 파티션 크기를 GB로 변환하는 함수 (섹터 크기가 512바이트라고 가정)
 double partition_size_in_gb(uint32_t size_in_sectors) {
     const uint32_t sector_size = 512; // 섹터 크기 (바이트)
